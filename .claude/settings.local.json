@@ -11,7 +11,24 @@
       "Bash(taskkill:*)",
       "Bash(git init:*)",
       "Bash(git reset:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(tree:*)",
+      "Bash(npm run dev:*)",
+      "Bash(ls:*)",
+      "Skill(superpowers:requesting-code-review)",
+      "Bash(npm run build:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(git config:*)",
+      "Bash(git fetch:*)",
+      "WebSearch",
+      "Bash(curl:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(timeout:*)",
+      "Bash(cd:*)",
+      "Bash(npm outdated:*)",
+      "Bash(npm audit:*)"
     ]
   }
 }
