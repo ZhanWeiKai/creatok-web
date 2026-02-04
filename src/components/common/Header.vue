@@ -10,7 +10,12 @@
 
       <!-- Navigation Menu -->
       <nav class="nav-menu">
-        <el-menu mode="horizontal" :default-active="activeMenu" class="nav-menu-inner">
+        <el-menu
+          mode="horizontal"
+          :default-active="activeMenu"
+          class="nav-menu-inner"
+          :ellipsis="false"
+        >
           <el-menu-item index="home">首页</el-menu-item>
           <el-menu-item index="features">功能</el-menu-item>
           <el-menu-item index="faq">常见问题</el-menu-item>
