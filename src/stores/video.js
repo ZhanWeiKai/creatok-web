@@ -25,7 +25,10 @@ export const useVideoStore = defineStore('video', {
     },
 
     initCreateFormFromVideo(video) {
-      this.createForm.prompt = video.prompt
+      // Convert prompt object to JSON string for storage
+      this.createForm.prompt = typeof video.prompt === 'string'
+        ? video.prompt
+        : JSON.stringify(video.prompt, null, 2)
       this.createForm.tags = ['商业广告', '产品展示']
     },
 

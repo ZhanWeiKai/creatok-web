@@ -9,18 +9,18 @@ const request = axios.create({
 const mockVideoDetail = {
   id: '1',
   title: 'Woman Purple Shower Gel Rose Oud Commercial Product Demo',
-  thumbnail: 'https://via.placeholder.com/400x225',
+  thumbnail: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&h=450&fit=crop',
   prompt: {
-    style: '明亮、干净的商业广告风格...',
+    style: '明亮、干净的商业广告风格，高饱和度色彩，专业产品摄影，柔和的背景虚化效果，现代简约美学',
     cinematography: {
-      camera: '手持静态拍摄',
-      lens: '50mm虚拟镜头',
-      lighting: '柔和的室内自然光',
-      mood: '愉悦、舒适、自信、诱人'
+      camera: '手持静态拍摄，轻微晃动增加真实感',
+      lens: '50mm虚拟镜头，浅景深',
+      lighting: '柔和的室内自然光，辅以专业补光',
+      mood: '愉悦、舒适、自信、诱人、高端'
     },
     scenes: [{
       time: '0s-3.5s',
-      description: '一名三十岁左右的女子...'
+      description: '一名三十岁左右的女子在明亮的浴室中，手持紫色的玫瑰沐浴露产品，背景是整洁的浴室环境，柔和的自然光线从侧面照射，产品的紫色包装在光线下闪闪发光。女子微笑着展示产品，表情自然舒适。'
     }]
   }
 }
