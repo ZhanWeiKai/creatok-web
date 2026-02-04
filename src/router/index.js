@@ -1,10 +1,24 @@
-// Router Configuration
-// To be implemented in Task 7
-
 import { createRouter, createWebHistory } from 'vue-router'
+import VideoDetail from '../views/VideoDetail.vue'
+import CreatePage from '../views/CreatePage.vue'
 
 const routes = [
-  // Routes will be configured here
+  {
+    path: '/',
+    name: 'Home',
+    redirect: '/video/1' // 临时重定向
+  },
+  {
+    path: '/video/:id',
+    name: 'VideoDetail',
+    component: VideoDetail,
+    props: true
+  },
+  {
+    path: '/create',
+    name: 'CreatePage',
+    component: CreatePage
+  }
 ]
 
 const router = createRouter({
