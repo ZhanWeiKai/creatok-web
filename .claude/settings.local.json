@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(brainstorming)",
+      "mcp__zai-mcp-server__extract_text_from_screenshot",
+      "Skill(subagent-driven-development)",
+      "Bash(npm create vite:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev)",
+      "Bash(pkill:*)",
+      "Bash(taskkill:*)",
+      "Bash(git init:*)",
+      "Bash(git reset:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
