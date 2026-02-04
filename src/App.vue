@@ -3,11 +3,8 @@
     <!-- Header Navigation -->
     <Header />
 
-    <!-- Main Content Area -->
-    <div class="main-content">
-      <!-- Router outlet will be configured here in Task 7 -->
-      <router-view />
-    </div>
+    <!-- Router outlet will render the page content -->
+    <router-view />
   </div>
 </template>
 
